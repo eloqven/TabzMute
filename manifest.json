@@ -1,0 +1,56 @@
+{
+    "manifest_version": 2,
+
+    "name": "TabzMutr",
+
+    "version": "1.0.0",
+
+    "description": "Mute tabs simply",
+
+    "icons": {
+        "16": "assets/16.png",
+        "128": "assets/128.png"
+    },
+
+    "background": {
+        "page": "popup.html",
+        "persistent": false
+    },
+
+    "web_accessible_resources": [
+        "popup.js",
+        "background.js",
+        "popup.html"
+    ],
+
+    "browser_action": {
+        "default_icon": "assets/16.png",
+        "default_popup": "popup.html"
+    },
+
+    "commands": {
+
+        "mute_current": {
+            "description": "Mute/Unmute the selected tab",
+            "suggested_key": {
+                "default": "Alt+Shift+M"
+            }
+        },
+
+        "mute_all": {
+            "description": "Mute/Unmute all audible tabs.",
+            "suggested_key": {
+                "default": "Alt+Shift+S"
+            }
+        },
+
+        "mute_all_but_current": {
+            "description": "Mute all audible tabs except current",
+            "suggested_key": {
+                "default": "Alt+Shift+N"
+            }
+        }
+
+    }
+}
+        

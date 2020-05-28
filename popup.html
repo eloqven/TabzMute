@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TabzMutr</title>
+    <script type="module" src="background.js"> </script>
+    <script type="module" src="popup.js"></script>
+    <style>
+        body {
+            text-align: center;
+            width: 220px;
+        }
+        html {
+            background: #5d386d;
+            color: #ffffffd9;
+        }
+        #shortcuts span {
+            float: right;
+            color: white;
+            font-style: italic;
+            min-width: 75px;
+        }
+        #shortcuts > div {
+            text-align: left;
+        }
+        label {
+            font-size: 123%;
+        }
+        hr {
+            border-color: #bc32ccab;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>TabzMutr</h2>
+    <div >
+        <input type="checkbox" id="muteTabs" name="muteTabs">
+        <label for="muteTabs"> mute all tabs</label><br>
+    </div>
+    <div >
+        <input type="checkbox" id="muteCurrent" name="muteCurrent">
+        <label for="muteCurrent"> mute current tab</label><br>
+    </div>
+    <br/>
+    <hr>
+    <div id="shortcuts">
+        <h4>Shortcuts</h4>
+        <div>
+            Mute / Unmute all tabs: <span>Alt + Shift + ,   </span>
+        </div>
+        <div>
+            Mute all except this tab: <span>Alt + Shift + N </span>
+        </div>
+        <div>
+            Mute / Unmute this tab: <span >Alt + Shift + M </span>
+        </div>
+    </div>
+
+  </body>
+</html>
