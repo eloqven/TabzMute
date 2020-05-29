@@ -1,6 +1,6 @@
-# TabzMute
-
-chrome browser extension for quikly managing audible tabs
+# chrome browser extension for quikly managing audible tabs
+<img align="right" src="instructions/popup.png" alt="discrption">
+<img width="510" src="instructions/1.png" alt="discrption">
 
 #### testing:
 #### in any chrome browser,
@@ -8,6 +8,3 @@ chrome browser extension for quikly managing audible tabs
   
   activate developers mode
   then load unpacked directory
-  
-  <img src="instructions/1.png" alt="discrption">
-  <kbd><img src="instructions/popup.png" alt="discrption"></kbd>
