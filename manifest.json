@@ -40,7 +40,7 @@
         "mute_all": {
             "description": "Mute/Unmute all audible tabs.",
             "suggested_key": {
-                "default": "Alt+Shift+S"
+                "default": "Alt+Shift+Comma"
             }
         },
 
