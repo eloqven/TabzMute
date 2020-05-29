@@ -1,10 +1,11 @@
-# chrome browser extension for quikly managing audible tabs
+# browser extension for quickly managing audible tabs
 <img align="right" src="instructions/popup.png" alt="discrption">
 <img width="510" src="instructions/1.png" alt="discrption">
 
-#### testing:
-#### in any chrome browser,
-  navigate to chrome://extensions,
+  
+  ### Testing
+  ##### in any Chrome browser,
+  navigate to [chrome://extensions](chrome://extensions)
   
   activate developers mode
   then load unpacked directory
