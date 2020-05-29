@@ -7,3 +7,5 @@ chrome browser extension for quikly managing audible tabs
   navigate to chrome://extensions,
   activate developers mode
   then load unpacked directory
+  
+ <img src="instructions/1.png" alt="discrption">
